@@ -33,3 +33,16 @@ cd apicorn
 npm install
 npm run dev
 ```
+
+## Links
+
+- [Live Demo (Netlify)](https://apicorn.netlify.app/pl)
+
+## Environment Setup
+
+To enable Supabase authentication and environment-aware features, create a `.env.local` file in the root of the project with the following variables:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_DEFAULT_LOCALE=en
