@@ -1,0 +1,128 @@
+{
+  "HomePage": {
+    "title": "Apicorn",
+    "description": "Modernes Tool zum Testen von APIs für Entwickler",
+    "projectGoal": "Ziel des Projekts: Entwicklung eines <highlight>Postman-ähnlichen REST-Clients</highlight> mit Unterstützung für Authentifizierung, Verlauf und Variablen",
+    "courseInfo": "Entwickelt im Rahmen des <courseLink>React-Kurses der RS School</courseLink> – ein kostenloses Bildungsprogramm",
+    "featuresTitle": "Funktionen",
+    "features": {
+      "restClient": {
+        "title": "REST-Client",
+        "description": "Teste deine APIs mit allen HTTP-Methoden und Vorschau der Antworten"
+      },
+      "history": {
+        "title": "Verlauf",
+        "description": "Durchsuche und verwende vergangene API-Anfragen effizient erneut"
+      },
+      "variables": {
+        "title": "Variablen für verschiedene API-Endpunkte",
+        "description": "Erstelle und wechsle einfach zwischen mehreren Umgebungen"
+      }
+    },
+    "technologies": "Technologien",
+    "technologiesList": {
+      "nextjs": "Full-Stack-Framework mit React und Server Components",
+      "supabase": "Open-Source-Alternative zu Firebase mit Echtzeit-Datenbank",
+      "tailwind": "Utility-first CSS-Framework für schnelles UI-Design",
+      "postman": "Code-Generierung für 8+ Sprachen mit der Postman-Engine",
+      "i18n": "Internationalisierung mit der next-intl Bibliothek",
+      "react": "Neueste React-Funktionen mit Server Components"
+    },
+    "team": "Unser Team",
+    "welcomeBack": "Willkommen zurück, {name}!",
+    "restClient": "REST-Client",
+    "history": "Verlauf",
+    "variables": "Variablen",
+    "getStarted": "Loslegen",
+    "authPrompt": "Registriere dich jetzt, um mit dem Testen deiner APIs zu beginnen",
+    "taskRequirements": "Anforderungen der Aufgabe",
+    "teamMembers": {
+      "jjjulietta": "Yuliya Ivachshanka",
+      "xsetiqq": "Tsimafei Liauchuk",
+      "spoonya": "Siarhei Punia"
+    }
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "Sign In": "Anmelden",
+    "Sign Up": "Registrieren",
+    "Sign Out": "Abmelden",
+    "pathnames": "Pfadnamen"
+  },
+  "Menu": {
+    "Rest Client": "REST-Client",
+    "History": "Verlauf",
+    "Variables": "Variablen"
+  },
+  "Auth": {
+    "Sign In": "Anmelden",
+    "Sign Up": "Registrieren",
+    "Sign In Auth": "Anmeldung",
+    "Sign Up Auth": "Registrierung",
+    "isAuth": "Du hast bereits ein Konto?",
+    "isNotAuth": "Du hast noch kein Konto?"
+  },
+  "AuthSchema": {
+    "name": "Name muss mindestens 2 Zeichen lang sein",
+    "onlyLetters": "Nur Buchstaben sind erlaubt",
+    "email": "Ungültige E-Mail-Adresse",
+    "password": "Passwort muss mindestens 8 Zeichen lang sein",
+    "password1": "Muss mindestens einen Buchstaben enthalten",
+    "password2": "Muss mindestens eine Zahl enthalten",
+    "password3": "Muss mindestens ein Sonderzeichen enthalten",
+    "confirmPassword": "Passwörter stimmen nicht überein",
+    "wrongPassowrdOrEmail": "Falsches Passwort oder E-Mail"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, ru {ru Russisch} en {🇺🇸 Englisch} pl {🇵🇱 Polnisch} de {🇩🇪 Deutsch} other {Unbekannt}}"
+  },
+  "404": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht",
+    "button": "Zurück zur Startseite"
+  },
+  "Sidebar": {
+    "history": "Verlauf",
+    "variables": "Variablen",
+    "restClient": "REST-Client"
+  },
+  "Mobile": {
+    "mobileVersion": "Mobile Version wird nicht unterstützt",
+    "Pls": "Bitte benutze die App auf einem Computer. :("
+  },
+  "Variables": {
+    "variables": "Variablen",
+    "key": "Schlüssel",
+    "value": "Wert",
+    "delete": "Löschen",
+    "add": "Hinzufügen",
+    "message": "existiert bereits",
+    "copyVariable": "Variable kopieren"
+  },
+  "History": {
+    "history": "Anfrageverlauf",
+    "noHistory": "Kein Anfrageverlauf vorhanden",
+    "message": "Sende eine Anfrage über unseren REST-Client.",
+    "goToClient": "Zum Client",
+    "delete": "Verlauf löschen"
+  },
+  "RestClient": {
+    "copySnippet": "Code-Snippet kopieren",
+    "genCode": "Generierter Code",
+    "submit": "Absenden",
+    "headers": "Header",
+    "addHeader": "Header hinzufügen",
+    "headersEmpty": "Keine Header vorhanden",
+    "body": "Body",
+    "key": "Schlüssel",
+    "value": "Wert",
+    "request": "Anfrage",
+    "response": "Antwort",
+    "status": "Status",
+    "noStatus": "Kein Status verfügbar",
+    "prettify": "Formatieren",
+    "Clear": "Löschen"
+  },
+  "PageLayout": {}
+}

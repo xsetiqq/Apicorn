@@ -1,0 +1,128 @@
+{
+  "HomePage": {
+    "title": "Apicorn",
+    "description": "Nowoczesne narzędzie do testowania API dla programistów",
+    "projectGoal": "Cel projektu: Stworzyć <highlight>REST-klienta podobnego do Postmana</highlight> z obsługą autoryzacji, historii i zmiennych",
+    "courseInfo": "Opracowano w ramach <courseLink>kursu React RS School</courseLink> – bezpłatnego programu edukacyjnego",
+    "featuresTitle": "Funkcje",
+    "features": {
+      "restClient": {
+        "title": "REST-klient",
+        "description": "Testuj swoje API z obsługą wszystkich metod HTTP i podglądem odpowiedzi"
+      },
+      "history": {
+        "title": "Historia zapytań",
+        "description": "Przeglądaj i ponownie używaj wcześniejszych zapytań API"
+      },
+      "variables": {
+        "title": "Zmienne dla różnych endpointów API",
+        "description": "Twórz i przełączaj się między wieloma środowiskami z łatwością"
+      }
+    },
+    "technologies": "Technologie",
+    "technologiesList": {
+      "nextjs": "Full-stack framework z Reactem i Server Components",
+      "supabase": "Open source'owa alternatywa dla Firebase z bazą danych w czasie rzeczywistym",
+      "tailwind": "Framework CSS z podejściem utility-first do szybkiego tworzenia UI",
+      "postman": "Generowanie kodu dla 8+ języków przy użyciu silnika Postman",
+      "i18n": "Internacjonalizacja z biblioteką next-intl",
+      "react": "Najnowsze funkcje Reacta z obsługą Server Components"
+    },
+    "team": "Nasz Zespół",
+    "welcomeBack": "Witaj ponownie, {name}!",
+    "restClient": "REST Klient",
+    "history": "Historia",
+    "variables": "Zmienne",
+    "getStarted": "Zacznij",
+    "authPrompt": "Zarejestruj się, aby rozpocząć testowanie swojego API",
+    "taskRequirements": "Wymagania zadania",
+    "teamMembers": {
+      "jjjulietta": "Yuliya Ivachshanka",
+      "xsetiqq": "Tsimafei Liauchuk",
+      "spoonya": "Siarhei Punia"
+    }
+  },
+  "Navigation": {
+    "home": "Strona główna",
+    "Sign In": "Zaloguj się",
+    "Sign Up": "Zarejestruj się",
+    "Sign Out": "Wyloguj się",
+    "pathnames": "Ścieżki"
+  },
+  "Menu": {
+    "Rest Client": "REST Klient",
+    "History": "Historia",
+    "Variables": "Zmienne"
+  },
+  "Auth": {
+    "Sign In": "Zaloguj się",
+    "Sign Up": "Zarejestruj się",
+    "Sign In Auth": "Logowanie",
+    "Sign Up Auth": "Rejestracja",
+    "isAuth": "Masz już konto?",
+    "isNotAuth": "Nie masz konta?"
+  },
+  "AuthSchema": {
+    "name": "Imię musi mieć co najmniej 2 znaki",
+    "onlyLetters": "Dozwolone są tylko litery",
+    "email": "Nieprawidłowy adres email",
+    "password": "Hasło musi mieć co najmniej 8 znaków",
+    "password1": "Musi zawierać co najmniej jedną literę",
+    "password2": "Musi zawierać co najmniej jedną cyfrę",
+    "password3": "Musi zawierać co najmniej jeden znak specjalny",
+    "confirmPassword": "Hasła nie są zgodne",
+    "wrongPassowrdOrEmail": "Nieprawidłowe hasło lub email"
+  },
+  "LocaleSwitcher": {
+    "label": "Zmień język",
+    "locale": "{locale, select, ru {ru Rosyjski} en {🇺🇸 Angielski} pl {🇵🇱 Polski} other {Nieznany}}"
+  },
+  "404": {
+    "title": "Strona nie znaleziona",
+    "description": "Strona, której szukasz, nie istnieje",
+    "button": "Wróć do strony głównej"
+  },
+  "Sidebar": {
+    "history": "Historia",
+    "variables": "Zmienne",
+    "restClient": "REST Klient"
+  },
+  "Mobile": {
+    "mobileVersion": "Wersja mobilna nie jest obsługiwana",
+    "Pls": "Użyj aplikacji na komputerze. :("
+  },
+  "Variables": {
+    "variables": "Zmienne",
+    "key": "Klucz",
+    "value": "Wartość",
+    "delete": "Usuń",
+    "add": "Dodaj",
+    "message": "już istnieje",
+    "copyVariable": "Skopiuj zmienną"
+  },
+  "History": {
+    "history": "Historia zapytań",
+    "noHistory": "Brak historii zapytań",
+    "message": "Wyślij zapytanie przez naszego REST klienta.",
+    "goToClient": "Przejdź do klienta",
+    "delete": "Wyczyść historię"
+  },
+  "RestClient": {
+    "copySnippet": "Skopiuj fragment kodu",
+    "genCode": "Wygenerowany kod",
+    "submit": "Wyślij",
+    "headers": "Nagłówki",
+    "addHeader": "Dodaj nagłówek",
+    "headersEmpty": "Brak nagłówków",
+    "body": "Body",
+    "key": "Klucz",
+    "value": "Wartość",
+    "request": "Zapytanie",
+    "response": "Odpowiedź",
+    "status": "Status",
+    "noStatus": "Brak dostępnego statusu",
+    "prettify": "Upiększ",
+    "Clear": "Wyczyść"
+  },
+  "PageLayout": {}
+}
